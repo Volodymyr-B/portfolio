@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --color-bg: #0f2a51;
+  --color-bg-alt: #0e1d3d;
+  --color-primary: #6f9acb;
+  --color-secondary: #fab80a;
+  --color-text: #e4e4e4;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+.wrapper {
+  overflow: hidden;
+  color: var(--color-text);
+}

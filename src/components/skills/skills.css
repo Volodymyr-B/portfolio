@@ -1,0 +1,75 @@
+.skills {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: var(--color-bg-alt);
+}
+.skills-container {
+  width: 80%;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.skills-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 570px;
+}
+.skill-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 570px;
+}
+
+.skills-info {
+  height: 65%;
+  display: flex;
+  text-align: left;
+  align-items: center;
+
+  color: black;
+  padding: 30px;
+  margin-top: 50px;
+  background-color: var(--color-primary);
+  border-radius: 12px;
+}
+/* ========================== MEDIUM MEDIA ==========================  */
+@media screen and (max-width: 1024px) {
+  .skills {
+    padding-bottom: 50px;
+  }
+  .skills-container {
+    gap: 40px;
+  }
+}
+/* ========================== SMALL  MEDIA ==========================  */
+@media screen and (max-width: 600px) {
+  .skills {
+    height: auto;
+  }
+  .skills-container {
+    font-size: 1.1rem;
+    gap: 10px;
+  }
+  .skills-right {
+    gap: 5px;
+  }
+  .skills-info {
+    margin-top: 0;
+  }
+}

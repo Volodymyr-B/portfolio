@@ -1,0 +1,28 @@
+.header_container {
+  padding-right: 20px;
+  font-size: 1.3rem;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5%;
+  background-color: var(--color-bg);
+}
+.header_container a {
+  color: var(--color-text);
+  transition: 0.2s;
+  cursor: pointer;
+  padding: 0 10px;
+}
+.header_container a:hover {
+  border-radius: 5px;
+  color: black;
+  background-color: var(--color-secondary);
+}
+
+/* ========================== SMALL  MEDIA ==========================  */
+@media screen and (max-width: 600px) {
+  .header_container {
+    font-size: 1.1rem;
+  }
+}

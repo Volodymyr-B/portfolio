@@ -1,0 +1,14 @@
+.footer {
+  background-color: var(--color-bg);
+  height: 40px;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ========================== SMALL  MEDIA ==========================  */
+@media screen and (max-width: 600px) {
+  .footer {
+    font-size: 1.1rem;
+  }
+}

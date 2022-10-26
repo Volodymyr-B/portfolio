@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c73bc0b5.css",
-    "main.js": "/portfolio/static/js/main.1bf1c7d8.js",
+    "main.js": "/portfolio/static/js/main.9b021ba4.js",
+    "static/media/kanban.jpg": "/portfolio/static/media/kanban.86f1a3b0fd32803dc38b.jpg",
     "static/media/Photo.jpg": "/portfolio/static/media/Photo.55fa3800e0db7217c7d3.jpg",
     "static/media/cafe.jpg": "/portfolio/static/media/cafe.5566b346ad9430441ec6.jpg",
     "static/media/wordle.jpg": "/portfolio/static/media/wordle.296fa90d8854d8f5ac3f.jpg",
     "index.html": "/portfolio/index.html",
     "main.c73bc0b5.css.map": "/portfolio/static/css/main.c73bc0b5.css.map",
-    "main.1bf1c7d8.js.map": "/portfolio/static/js/main.1bf1c7d8.js.map"
+    "main.9b021ba4.js.map": "/portfolio/static/js/main.9b021ba4.js.map"
   },
   "entrypoints": [
     "static/css/main.c73bc0b5.css",
-    "static/js/main.1bf1c7d8.js"
+    "static/js/main.9b021ba4.js"
   ]
 }

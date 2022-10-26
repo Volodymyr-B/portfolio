@@ -11,6 +11,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { FiExternalLink } from "react-icons/fi";
 import cafe from "./assets/cafe.jpg";
 import game from "./assets/wordle.jpg";
+import kanban from "./assets/kanban.jpg";
 
 export const mySkills = [
   { id: 1, img: <SiHtml5 size={70} />, text: "HTML5" },
@@ -41,6 +42,16 @@ export const myProjects = [
     text: "Clone of the well-known Wordle game. This fun application includes fully working logic, keyboard input, color recognition and animation",
     link: "https://github.com/Volodymyr-B/wordle",
     page: "https://volodymyr-b.github.io/wordle/",
+    icon: <FaGithub />,
+    icon2: <FiExternalLink />,
+  },
+  {
+    id: 3,
+    name: "Kanban Board",
+    img: kanban,
+    text: "This application is visualizer of issues from GitHub repositories with drag-n-drop functionality and saving repository position between sessions",
+    link: "https://github.com/Volodymyr-B/kanban",
+    page: "https://volodymyr-b.github.io/kanban/",
     icon: <FaGithub />,
     icon2: <FiExternalLink />,
   },

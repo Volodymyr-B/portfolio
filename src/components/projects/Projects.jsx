@@ -9,16 +9,7 @@ const Projects = () => {
       <h3 className="section-title">My Works</h3>
       <div className="projects-container">
         {myProjects.map((el) => (
-          <Project
-            key={el.id}
-            name={el.name}
-            img={el.img}
-            text={el.text}
-            link={el.link}
-            page={el.page}
-            icon={el.icon}
-            icon2={el.icon2}
-          />
+          <Project key={el.id} project={el} />
         ))}
       </div>
     </section>

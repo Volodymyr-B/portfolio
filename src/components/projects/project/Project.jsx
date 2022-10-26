@@ -1,7 +1,8 @@
 import React from "react";
 import "./project.css";
 
-const Project = ({ name, img, text, link, page, icon, icon2 }) => {
+const Project = ({ project }) => {
+  const { name, img, text, link, page, icon, icon2 } = project;
   return (
     <div className="project-wrapper">
       <div className="project-container">

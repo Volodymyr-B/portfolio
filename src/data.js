@@ -1,4 +1,4 @@
-import { SiHtml5 } from "react-icons/si";
+import { SiHtml5, SiNextdotjs } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
 import { SiReact } from "react-icons/si";
@@ -9,7 +9,8 @@ import { SiTailwindcss } from "react-icons/si";
 import { BsTelegram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { FiExternalLink } from "react-icons/fi";
-import cafe from "./assets/cafe.jpg";
+
+import sneaker from "./assets/sneaker.jpg";
 import game from "./assets/wordle.jpg";
 import kanban from "./assets/kanban.jpg";
 
@@ -17,21 +18,21 @@ export const mySkills = [
   { id: 1, img: <SiHtml5 size={70} />, text: "HTML5" },
   { id: 2, img: <SiCss3 size={70} />, text: "CSS3" },
   { id: 3, img: <SiJavascript size={70} />, text: "JavaScript" },
-  { id: 4, img: <SiReact size={70} />, text: "React JS" },
-  { id: 5, img: <SiRedux size={70} />, text: "React-Redux" },
-  { id: 6, img: <FaGithub size={70} />, text: "GitHub" },
+  { id: 4, img: <SiReact size={70} />, text: "React" },
+  { id: 5, img: <SiNextdotjs size={70} />, text: "Next" },
+  { id: 6, img: <SiRedux size={70} />, text: "React-Redux" },
   { id: 7, img: <SiTypescript size={70} />, text: "TypeScript" },
-  { id: 8, img: <SiTailwindcss size={70} />, text: "TailWind" },
+  { id: 8, img: <SiTailwindcss size={70} />, text: "Tailwind" },
 ];
 
 export const myProjects = [
   {
     id: 1,
-    name: "Cafe Street",
-    img: cafe,
-    text: "E-commerce website with a fully working trading system, a shopping cart, adding goods, placing an order, mail, checking validation",
-    link: "https://github.com/Volodymyr-B/E-commerceSite",
-    page: "https://volodymyr-b.github.io/E-commerceSite/",
+    name: "Sneaker Store",
+    img: sneaker,
+    text: "Full-stack E-commerce app with a fully working trading system, creating orders, authentication, shopping cart, commenting, validation",
+    link: "https://github.com/Volodymyr-B/sneaker-store",
+    page: "https://sneaker-store-one.vercel.app/",
     icon: <FaGithub />,
     icon2: <FiExternalLink />,
   },
